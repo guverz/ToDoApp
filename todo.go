@@ -60,9 +60,9 @@ func (todos *Todos) del(index int) error {
 
 }
 
-func (todos *Todos) list() string {
-	return "foobar"
-}
+// func (todos *Todos) list() string {
+// 	return "foobar"
+// }
 
 func (todos *Todos) toggle(index int) error {
 	t := *todos
